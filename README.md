@@ -1,6 +1,6 @@
 # Metadata Extraction Service
 
-This is our metadata extraction service 
+This is our metadata extraction service for our pairtree service 
 
 ## Building the Project
 
