@@ -1,6 +1,6 @@
 # Metadata Extraction Service
 
-This is our metadata extraction service for our A/V pipeline project
+This is our metadata extraction service for our A/V pipeline project.
 
 ## Building the Project
 
@@ -22,6 +22,20 @@ To run the Docker image:
 
 `docker run -d -p 8888:8888 metadata-extraction-service`
 
+## Building and Running with Docker Compose
+
+To build and run the service using Docker Compose, use the following command:
+
+`docker-compose up --build`
+
+Once the container is running, you can access the service at:
+
+`http://localhost:8888`
+
+To stop the running containers, use the following command:
+
+`docker-compose down`
+
 ## Compiling on ACT 
 
 We use [ACT](https://github.com/nektos/act) to build the project. Our GitHub Actions' workflow (which is also used locally by ACT) is pretty simple.
@@ -34,4 +48,4 @@ Now that ACT is installed, you can see the workflow run locally by running:
 
 ## Contact
 
-If you have any questions or suggestions, feel free to [open a ticket](https://github.com/UCLALibrary/service-template/issues) on project's GitHub repo.
+If you have any questions or suggestions, feel free to [open a ticket](https://github.com/UCLALibrary/metadata-extraction-service/issues) on project's GitHub repo.
